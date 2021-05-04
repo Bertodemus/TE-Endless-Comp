@@ -4,18 +4,6 @@
 		brightness(90%) contrast(98%);
 }
 
-.topL {
-	grid-area: topL;
-	padding-top: 4px;
-	background-color: #222222;
-}
-
-.topR {
-	grid-area: topR;
-	padding-top: 4px;
-	background-color: #222222;
-}
-
 .container {
 	padding-bottom: 1rem;
 	display: grid;
