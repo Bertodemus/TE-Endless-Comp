@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Steps from "../components/steps";
 
+// getStaticProps is a function that is native to Nextjs, it tells NextJS to pre-render this page at build time, using data returned by the function
 export async function getStaticProps() {
 	const url =
 		"https://uqnzta2geb.execute-api.us-east-1.amazonaws.com/default/FrontEndCodeChallenge";
@@ -16,7 +17,7 @@ export async function getStaticProps() {
 }
 
 export default function Home({ stepsData }) {
-	let sortedStepsData = stepsData.sort(function (a, b) {
+	const sortedStepsData = stepsData.sort(function (a, b) {
 		return a.stepNumber - b.stepNumber;
 	});
 	return (

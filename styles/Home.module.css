@@ -132,6 +132,23 @@
 		height: 75vh;
 		overflow-y: hidden;
 	}
+
+	.textOver h5 {
+		font-size: 20px;
+	}
+	
+	.textOver h1 {
+		font-size: 50px;
+	}
+	
+	.textOver p {
+		font-size: 15px;
+		max-width: 350px;
+
+	}
+	
+
+	
 }
 
 @media only screen and (max-width: 740px) {

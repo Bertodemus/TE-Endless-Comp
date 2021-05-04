@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
 
+// I map over the sorted array and extract the necessary data as it is being returned
 const Steps = (props) => {
 	const { steps } = props;
 	return steps.map((step, index) => {
