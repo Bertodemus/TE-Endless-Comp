@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Steps renders as expected 1`] = `
+Array [
+  <div
+    className="step1 styleSteps"
+  >
+    <h1>
+      01
+    </h1>
+    <h6>
+      FILL OUT A PROFILE
+    </h6>
+    <p>
+      We only want you to get games and gear that you’ll love, so we’ll ask for your preferences up front.
+    </p>
+  </div>,
+  <div
+    className="step2 styleSteps"
+  >
+    <h1>
+      02
+    </h1>
+    <h6>
+      REQUEST A DELIVERY
+    </h6>
+    <p>
+      Once you’re ready for your first delivery, all it takes is a click to get your shipment on the way.
+    </p>
+  </div>,
+  <div
+    className="step3 styleSteps"
+  >
+    <h1>
+      03
+    </h1>
+    <h6>
+      KEEP WHAT YOU WANT
+    </h6>
+    <p>
+      Tell us “no thanks” by returning any unwanted products in the enclosed packaging.
+    </p>
+  </div>,
+  <div
+    className="step4 styleSteps"
+  >
+    <h1>
+      04
+    </h1>
+    <h6>
+      REQUEST ANOTHER DELIVERY
+    </h6>
+    <p>
+      Get your next gaming fix by updating your profile then initiating your next shipment.
+    </p>
+  </div>,
+]
+`;

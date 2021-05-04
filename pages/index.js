@@ -1,6 +1,8 @@
+import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Steps from "../components/steps";
 
 export async function getStaticProps() {
 	const url =
@@ -17,7 +19,6 @@ export default function Home({ stepsData }) {
 	let sortedStepsData = stepsData.sort(function (a, b) {
 		return a.stepNumber - b.stepNumber;
 	});
-
 	return (
 		<div>
 			<Head>
@@ -61,23 +62,7 @@ export default function Home({ stepsData }) {
 				<div className={styles.howIt}>
 					<h3 className={styles.howit}>How It Works</h3>
 				</div>
-				{sortedStepsData.map((step, index) => {
-					step.versionContent.sort(function (a, b) {
-						return new Date(b.effectiveDate) - new Date(a.effectiveDate);
-					});
-					let stepStyle = "step" + (index + 1);
-					let title = sortedStepsData[index].versionContent[0].title;
-					return (
-						<div
-							key={stepStyle}
-							className={`${styles[stepStyle]} ${styles.styleSteps}`}
-						>
-							<h1>{"0" + (index + 1)}</h1>
-							<h6>{title.toUpperCase()}</h6>
-							<p>{sortedStepsData[index].versionContent[0].body}</p>
-						</div>
-					);
-				})}
+				<Steps steps={sortedStepsData} />
 			</main>
 		</div>
 	);

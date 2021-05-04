@@ -1,34 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Endless Header](readme_assets/logo-endless.png)
 
-## Getting Started
+#### **Technical Exercise - Endless Comp**
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## **Table of Contents**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. [Description](#Description)
+1. [Tech](#Tech)
+1. [Installation](#Installation)
+1. [Usage](#Usage)
+1. [Test](#Test)
+1. [Screenshots](#Screenshots)
+1. [Contact](#Contact)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## **Description**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Need copy for this section.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## **Tech**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- React.js
+- Next.js
+- Jest
+- Babel
+- Node.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## **Installation**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repo: `git clone https://github.com/Bertodemus/TE-Endless-Comp.git`
+2. Install server-side NPM packages: `npm install`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## **Usage**
+
+1. Run the app: `npm run dev`
+1. In your browser, navigate to: `http://localhost:3000/`
+
+---
+
+## **Test**
+
+1. Test the "step creation" component: `npm run test`
+
+---
+
+## **Screenshots**
+
+Screenshot of the page
+
+![Main View](readme_assets/main.png)
+
+
+Screenshot of the page @500px wide
+
+![Main Medium View](readme_assets/main_med.png)
+
+Screenshot of the page @400px wide
+
+![Main Medium View](readme_assets/main_small_400.png)
+
+Screenshot of the page @320px wide
+
+![Main Medium View](readme_assets/main_small_320.png)
+
+Screenshot of the page @1440px wide
+
+![Main Medium View](readme_assets/main_large.png)
+
+---
+
+## **Contact**
+
+Below is my contact information. Do not hesitate to reach out to me if you have any questions.
+
+|                | Email                    | Portfolio                                                   | Artwork                                       |
+| -------------- | ------------------------ | ------------------------------------------------------------| --------------------------------------------- |
+| Roberto Rubet  | roberto@robertorubet.com | [berto.netlify.app/about](https://berto.netlify.app/about)  | [BERTO!](https://www.robertorubet.com/)       |
+
+---
+
+### Thank you so much for taking the time to review my work!
