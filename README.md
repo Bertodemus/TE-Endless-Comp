@@ -52,7 +52,8 @@ Again, thank you so much for taking the time to look over my work. If you have a
 ## **Installation**
 
 1. Clone the repo: `git clone https://github.com/Bertodemus/TE-Endless-Comp.git`
-2. Install server-side NPM packages: `npm install`
+1. Navigate to the comp folder: `cd TE-Endless-Comp/`
+1. Install server-side NPM packages: `npm install`
 
 ##### [Top](#ooo)
 ---
