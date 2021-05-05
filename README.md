@@ -1,6 +1,8 @@
-![Endless Header](readme_assets/logo-endless.png)
+###### **ooo**
 
-#### **Technical Exercise - Endless Comp**
+![Endless Header](readme_assets/logo-endless.png) 
+
+#### **Technical Exercise - Endless Comp** 
 
 ---
 
@@ -33,7 +35,7 @@ I included a Jest `snapshot` test for the `Steps` component. The instructions fo
 Again, thank you so much for taking the time to look over my work. If you have any questions, do not hesitate to contact me! Take care!
 
 
-
+##### [Top](#ooo)
 ---
 
 ## **Tech**
@@ -44,6 +46,7 @@ Again, thank you so much for taking the time to look over my work. If you have a
 - Babel
 - Node.js
 
+##### [Top](#ooo)
 ---
 
 ## **Installation**
@@ -51,6 +54,7 @@ Again, thank you so much for taking the time to look over my work. If you have a
 1. Clone the repo: `git clone https://github.com/Bertodemus/TE-Endless-Comp.git`
 2. Install server-side NPM packages: `npm install`
 
+##### [Top](#ooo)
 ---
 
 ## **Usage**
@@ -58,12 +62,14 @@ Again, thank you so much for taking the time to look over my work. If you have a
 1. Run the app: `npm run dev`
 1. In your browser, navigate to: `http://localhost:3000/`
 
+##### [Top](#ooo)
 ---
 
 ## **Test**
 
 1. Test the "step creation" component: `npm run test`
 
+##### [Top](#ooo)
 ---
 
 ## **Screenshots**
@@ -89,6 +95,7 @@ Screenshot of the page @1440px wide
 
 ![Main Medium View](readme_assets/main_large.png)
 
+##### [Top](#ooo)
 ---
 
 ## **Contact**
@@ -99,6 +106,7 @@ Below is my contact information. Do not hesitate to reach out to me if you have 
 | -------------- | ------------------------ | ------------------------------------------------------------| --------------------------------------------- |
 | Roberto Rubet  | roberto@robertorubet.com | [berto.netlify.app/about](https://berto.netlify.app/about)  | [BERTO!](https://www.robertorubet.com/)       |
 
+##### [Top](#ooo)
 ---
 
 ### Thank you so much for taking the time to review my work!
