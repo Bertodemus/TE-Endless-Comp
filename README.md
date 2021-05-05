@@ -20,11 +20,11 @@
 
 ## **Description**
 
-Greetings! Thank you for taking the time to look over my technical exercise submission. I am excited to review this and get your feedback, suggestions, and constructive criticism! I believe it is one of the best ways to learn and improve.
+Greetings! Thank you for taking the time to look over my technical exercise submission. I am excited to get your feedback, suggestions, and constructive criticism! I believe that is one of the best ways to learn and improve.
 
-For this comp, after reviewing the React Docs, I decided to use Next.js as my starter toolchain. I could have used `create react app`, but since the content was relatively static, I felt that `Next.js` was a better fit and would be more performant.
+For this comp, after reviewing the React Docs, I decided to use `Next.js` as my starter toolchain. I could have used `create react app`, but since the content was relatively static, I felt that `Next.js` was a better fit and would be more performant.
 
-I matched the appearance of the comp, as closely as possible. I also made considerations for responsiveness. You can take a look at the [Screenshots](#Screenshots) to see some of my results. The "hero" image was compressed really well. It was coming in at only 597kb. Next.js has some built-in image optimization as well. It will automatically lazy load images and render them in a way that helps avoid cumulative layout shift, amongst other optimizations and considerations.
+I matched the appearance of the comp, as closely as possible. I also made considerations for responsiveness. You can take a look at the [Screenshots](#Screenshots) to see some of my results. The "hero" image was compressed really well. It was only 597kb in size. Next.js has some built-in image optimization as well. It will automatically lazy load images and render them in a way that helps avoid cumulative layout shift, amongst other optimizations and considerations.
 
 The "GET STARTED" button has a color change transition for it's hover and active states.
 
